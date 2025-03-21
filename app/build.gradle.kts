@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.employeedirectoryapp"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.employeedirectoryapp"
@@ -45,4 +45,11 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation (libs.androidx.lifecycle.viewmodel.ktx)
+    implementation (libs.androidx.recyclerview)
+    // Retrofit
+    implementation (libs.retrofit)
+    implementation (libs.converter.gson)
+    // Glide
+    implementation (libs.glide)
 }
