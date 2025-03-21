@@ -2,4 +2,5 @@
 plugins {
     alias(libs.plugins.android.application) apply false
     alias(libs.plugins.jetbrains.kotlin.android) apply false
+//    id("com.google.devtools.kapt") version "2.0.21" apply false
 }

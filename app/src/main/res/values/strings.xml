@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Employee Directory app</string>
+    <string name="no_employees_available">No Employees Available</string>
+    <string name="error_loading_data">Error loading data</string>
 </resources>
